@@ -1,0 +1,10 @@
+package: .
+import:
+- package: github.com/gorilla/websocket
+  version: ~1.4.0
+- package: github.com/gobuffalo/packr
+  version: ^1.13.5
+  subpackages:
+  - '...'
+- package: github.com/pkg/errors
+  version: ^0.8.0

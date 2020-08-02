@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chat-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      component: odc-chat
+  template:
+    metadata:
+      labels:
+        component: odc-chat
+    spec:
+      containers:
+        - name: odc-chat
+          image: gnosis5bit/odc-chat-beanstalk
+          ports:
+            - name: http
+              containerPort: 8080

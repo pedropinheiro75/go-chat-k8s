@@ -1,0 +1,12 @@
+hash: 9cdc7690ee5e75553893d75d5f4032ee62b9058311a0196899411accaa01c969
+updated: 2018-09-10T18:25:59.509089-03:00
+imports:
+- name: github.com/gobuffalo/packr
+  version: 6c8156ee36301dd007342e79d81c99e7a7834337
+  subpackages:
+  - '...'
+- name: github.com/gorilla/websocket
+  version: 66b9c49e59c6c48f0ffce28c2d8b8a5678502c6d
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+testImports: []
